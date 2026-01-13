@@ -1393,7 +1393,6 @@ body {
 }
 
 .header {
-  height: 100vh;
   background-image: linear-gradient(to right, #0f172a 40%, rgba(15, 23, 42, 0.7) 70%, rgba(15, 23, 42, 0) 100%), url(../../img/warehouse1.jpg);
   background-size: cover;
   background-position: center;

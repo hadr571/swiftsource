@@ -48,6 +48,8 @@
     padding-top: 3rem;
     max-width: 114rem;
     margin: 0 auto;
+    background-color: white;
+    width: 100vw;
 
     display: flex;
     align-items: center;
@@ -121,7 +123,7 @@
         &,
         &:visited {
             text-decoration: none;
-            color: $color-light;
+            color: $color-primary;
             font-size: 1.6rem;
             font-weight: 600;
 

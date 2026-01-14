@@ -56,7 +56,7 @@ body {
   text-transform: capitalize;
 }
 .heading-primary--dark {
-  color: #0f172a;
+  color: #4e0b74;
   font-weight: 600;
 }
 @media only screen and (max-width: 600px) {
@@ -165,7 +165,7 @@ body {
 .paragraph {
   font-weight: 400;
   font-size: 1.4rem;
-  color: #0f172a;
+  color: #4e0b74;
 }
 @media only screen and (max-width: 900px) {
   .paragraph {
@@ -685,7 +685,7 @@ body {
 }
 .basic-card__heading {
   font-family: "Recoleta", sans-serif;
-  color: #0f172a;
+  color: #4e0b74;
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -723,7 +723,7 @@ body {
 .basic-card__icon {
   width: 5rem;
   height: 5rem;
-  background-color: #0f172a;
+  background-color: #4e0b74;
   padding: 6px;
   border-radius: 1rem;
   margin-bottom: 1rem;
@@ -734,7 +734,7 @@ body {
 .basic-card__text {
   font-size: 1.4rem;
   font-weight: 400;
-  color: #0f172a;
+  color: #4e0b74;
   margin-bottom: 1.4rem;
 }
 @media only screen and (max-width: 900px) {
@@ -1246,6 +1246,8 @@ body {
   padding-top: 3rem;
   max-width: 114rem;
   margin: 0 auto;
+  background-color: white;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1310,7 +1312,7 @@ body {
 }
 .nav__link, .nav__link:visited {
   text-decoration: none;
-  color: #f8f3f0;
+  color: #4e0b74;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -1385,7 +1387,7 @@ body {
   left: 0;
   width: 100vw;
   height: 0;
-  background-color: rgba(15, 23, 42, 0.85);
+  background-color: rgba(78, 11, 116, 0.85);
   backdrop-filter: blur(5px);
   overflow: hidden;
 }
@@ -1394,14 +1396,14 @@ body {
 }
 
 .header {
-  background-image: linear-gradient(to right, #0f172a 40%, rgba(15, 23, 42, 0.7) 70%, rgba(15, 23, 42, 0) 100%), url(../../img/warehouse1.jpg);
+  background-image: linear-gradient(to right, #4e0b74 40%, rgba(78, 11, 116, 0.7) 70%, rgba(78, 11, 116, 0) 100%), url(../../img/warehouse1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .footer {
-  background-color: #0f172a;
+  background-color: #4e0b74;
   padding: 5rem 0;
   position: relative;
   z-index: 9;
